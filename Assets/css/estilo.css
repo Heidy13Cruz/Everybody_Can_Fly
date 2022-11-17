@@ -6,7 +6,7 @@
 .header {
   padding: 2%;
   display: flex;
-  background-color: hsl(187deg, 98%, 56%);
+  background-color: hsl(212deg, 77%, 80%);
   color: azure;
 }
 .header__section {
@@ -24,7 +24,7 @@ li {
 }
 
 .main {
-  background-color: cadetblue;
+  background-color: rgb(130, 151, 207);
   padding-top: 20px;
 }
 .main h3 {
@@ -62,9 +62,13 @@ li {
   margin-bottom: 3%;
   margin-left: 2%;
 }
+.paquetes__div__p {
+  color: deeppink;
+}
 .paquetes__div h4 {
   background-color: darkslategrey;
-  width: 90%;
+  width: 80%;
+  padding: 4%;
   text-align: center;
   color: beige;
 }
@@ -79,6 +83,24 @@ li {
   margin-top: 20px;
   text-align: justify;
   width: 80%;
+}
+
+.details {
+  text-align: left;
+  width: 100%;
+}
+.details__summary {
+  list-style: none;
+  text-align: center;
+}
+.details__summary__label {
+  width: 100%;
+  margin-top: 2%;
+}
+
+input {
+  margin-bottom: 2%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=estilo.css.map */
