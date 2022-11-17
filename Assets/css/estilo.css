@@ -1,6 +1,78 @@
-h1 {
-  font-size: 20px;
-  color: rgb(0, 68, 255);
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  padding: 2%;
+  display: flex;
+  background-color: hsl(187deg, 98%, 56%);
+  color: azure;
+}
+.header__section {
+  display: flex;
+  margin-left: 60px;
+}
+.header__section__item {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  margin-left: 20%;
+}
+
+.main {
+  background-color: cadetblue;
+  padding-top: 20px;
+}
+.main h3 {
+  margin-left: 2%;
+  color: rgb(202, 202, 89);
+  margin-bottom: 2%;
+  padding-top: 1%;
+}
+.main .destinos {
+  display: flex;
+  width: 100%;
+}
+.main .destinos img {
+  margin-left: 10%;
+  width: 85%;
+}
+.main .destinos h4 {
+  width: 85%;
+  background-color: rgb(31, 116, 90);
+  margin-left: 10%;
+  color: beige;
+}
+.main .destinos__div {
+  margin-top: 10px;
+  width: 95%;
+}
+.main .destinos__div h4 {
+  padding-top: 2%;
+  text-align: left;
+}
+
+.paquetes {
+  padding-top: 2%;
+  display: flex;
+}
+.paquetes__div {
+  width: 90%;
+}
+.paquetes__subtitle {
+  width: 90%;
+}
+.paquetes img {
+  width: 85%;
+}
+.paquetes p {
+  margin-top: 20px;
+  text-align: justify;
+  width: 90%;
 }
 
 /*# sourceMappingURL=estilo.css.map */
