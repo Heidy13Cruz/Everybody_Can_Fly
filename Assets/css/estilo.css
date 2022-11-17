@@ -31,7 +31,7 @@ li {
   margin-left: 2%;
   color: rgb(202, 202, 89);
   margin-bottom: 2%;
-  padding-top: 1%;
+  padding-top: 2%;
 }
 .main .destinos {
   display: flex;
@@ -46,14 +46,11 @@ li {
   background-color: rgb(31, 116, 90);
   margin-left: 10%;
   color: beige;
+  text-align: center;
 }
 .main .destinos__div {
-  margin-top: 10px;
+  margin-top: 2%;
   width: 95%;
-}
-.main .destinos__div h4 {
-  padding-top: 2%;
-  text-align: left;
 }
 
 .paquetes {
@@ -62,17 +59,26 @@ li {
 }
 .paquetes__div {
   width: 90%;
+  margin-bottom: 3%;
+  margin-left: 2%;
+}
+.paquetes__div h4 {
+  background-color: darkslategrey;
+  width: 90%;
+  text-align: center;
+  color: beige;
 }
 .paquetes__subtitle {
-  width: 90%;
+  width: 75%;
 }
 .paquetes img {
-  width: 85%;
+  width: 90%;
 }
 .paquetes p {
+  margin-left: 5%;
   margin-top: 20px;
   text-align: justify;
-  width: 90%;
+  width: 80%;
 }
 
 /*# sourceMappingURL=estilo.css.map */

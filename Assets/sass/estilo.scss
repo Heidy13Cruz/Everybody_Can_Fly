@@ -34,7 +34,7 @@ li{
         margin-left: 2%;
         color: rgb(202, 202, 89);
         margin-bottom: 2%;
-        padding-top: 1%;
+        padding-top: 2%;
     }
 
 
@@ -52,17 +52,13 @@ li{
             background-color: rgb(31, 116, 90);
             margin-left: 10%;
             color: beige;
+            text-align: center;
         }
 
         &__div{
-            margin-top: 10px;
+            margin-top: 2%;
             width: 95%;
 
-            h4{
-                padding-top: 2%;
-                text-align: left;
-            }
-            
         }
     }
 }
@@ -73,18 +69,29 @@ li{
 
         &__div{
             width: 90%;
+            margin-bottom: 3%;
+            margin-left: 2%;
+
+            h4{
+                background-color: darkslategrey;
+                width: 90%;
+                text-align: center;
+                color: beige;
+            }
         }
             &__subtitle{
-                width: 90%;
+                width:75%;
+
             }
     img{
-        width: 85%;
+        width: 90%;
     }
     
     p{
+        margin-left: 5%;
         margin-top: 20px;
         text-align: justify;
-        width: 90%;
+        width: 80%;
     }
 
 }
