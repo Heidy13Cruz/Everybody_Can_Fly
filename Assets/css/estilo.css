@@ -6,8 +6,9 @@
 .header {
   padding: 2%;
   display: flex;
-  background-color: hsl(212deg, 77%, 80%);
   color: azure;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(191deg, rgb(238, 174, 202) 0%, rgb(209, 161, 236) 49%, rgb(220, 182, 155) 75%, rgb(160, 223, 219) 76%, rgb(233, 148, 181) 100%);
 }
 .header__section {
   display: flex;
@@ -24,12 +25,12 @@ li {
 }
 
 .main {
-  background-color: rgb(130, 151, 207);
-  padding-top: 20px;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(90deg, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
 }
 .main h3 {
   margin-left: 2%;
-  color: rgb(202, 202, 89);
+  color: rgb(30, 109, 173);
   margin-bottom: 2%;
   padding-top: 2%;
 }
@@ -87,11 +88,16 @@ li {
 
 .details {
   text-align: left;
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
+  padding: 2%;
 }
 .details__summary {
   list-style: none;
   text-align: center;
+  color: beige;
+  font-size: 25px;
+  padding: 5%;
 }
 .details__summary__label {
   width: 100%;
@@ -99,8 +105,26 @@ li {
 }
 
 input {
-  margin-bottom: 2%;
   width: 100%;
+  margin-bottom: 2%;
+}
+
+button {
+  padding: 1%;
+  color: gray;
+}
+
+#input {
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  color: azure;
+  padding: 2%;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(209, 161, 236) 49%, rgb(196, 177, 232) 56%, rgb(160, 223, 219) 72%, rgb(220, 182, 155) 75%, rgb(233, 148, 181) 100%);
 }
 
 /*# sourceMappingURL=estilo.css.map */
